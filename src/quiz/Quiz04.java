@@ -7,7 +7,7 @@ public class Quiz04 {
 	public static void main(String[] args) {
 		// 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÁÙÀÇ °¹¼ö : ");
+		System.out.print("ì¤„ì˜ ê°¯ìˆ˜ : ");
 		int result = sc.nextInt();
 		
 		for(int i = 0; i < result; i++) {

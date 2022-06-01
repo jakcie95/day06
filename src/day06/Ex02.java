@@ -6,11 +6,11 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 	/*
-	¹è¿­
-	-°°Àº ÀÚ·áÇüÀ¸·Î ¿¬¼ÓµÈ °ø°£À» ¸¸µå´Â °Í.
-	- ¹è¿­¿¡ Á¢±Ù½Ã index¸¦ »ç¿ëÇÏ¿© Á¢±ÙÇÑ´Ù.
-	- index(Ã·ÀÚ)´Â 0 ºÎÅÍ ½ÃÀÛÇÑ´Ù.
-	- ÀÚ·áÇü [] ¹è¿­¸í ¶Ç´Â ÀÚ·áÇü ¹è¿­¸í[] »ı¼ºÇÑ´Ù.
+	ë°°ì—´
+	-ê°™ì€ ìë£Œí˜•ìœ¼ë¡œ ì—°ì†ëœ ê³µê°„ì„ ë§Œë“œëŠ” ê²ƒ.
+	- ë°°ì—´ì— ì ‘ê·¼ì‹œ indexë¥¼ ì‚¬ìš©í•˜ì—¬ ì ‘ê·¼í•œë‹¤.
+	- index(ì²¨ì)ëŠ” 0 ë¶€í„° ì‹œì‘í•œë‹¤.
+	- ìë£Œí˜• [] ë°°ì—´ëª… ë˜ëŠ” ìë£Œí˜• ë°°ì—´ëª…[] ìƒì„±í•œë‹¤.
 	*/
 		/*
 		arr[num] = 500;
@@ -48,7 +48,7 @@ public class Ex02 {
 		String[] names = new String[3];
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i <names.length; i++) {
-			System.out.println(i + ".ÀÌ¸§ ÀÔ·Â");
+			System.out.println(i + ".ì´ë¦„ ì…ë ¥");
 			names[i] = sc.next();
 		}
 		for(int i = 0; i <names.length; i++) {
@@ -56,7 +56,7 @@ public class Ex02 {
 		}
 		
 		for(String n : names) {
-			System.out.println("ÀÌ¸§ : "+n);
+			System.out.println("ì´ë¦„ : "+n);
 		}
 }
 }
